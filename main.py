@@ -4,9 +4,14 @@ from flask import Flask
 
 app = Flask(__name__)
 
+
 @app.route('/')
-def test():
-    return '<p>test</p>'
+def index():
+    return '<h1>coming soon</h1>'
+
+@app.route('/resume')
+def resume():
+    return '<h1>coming soon</h1>'
 
 
 if __name__ == '__main__':
