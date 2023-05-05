@@ -1,5 +1,5 @@
 import os
-from flask import Flask, render_template
+from flask import Flask, render_template, send_file
 
 
 app = Flask(__name__)
@@ -11,7 +11,7 @@ def index():
 
 @app.route('/resume')
 def resume():
-    return '<h1>coming soon</h1>'
+    return send_file('static/pdf/resume.pdf')
 
 
 if __name__ == '__main__':
