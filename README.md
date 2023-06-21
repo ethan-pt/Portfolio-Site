@@ -5,7 +5,6 @@
 ## Table of Contents
 
 * [Technologies Used](#technologies-used)
-* [Screenshots](#screenshots)
 * [Setup](#setup)
 * [To Do](#to-do)
 * [Contact](#contact)
@@ -15,13 +14,9 @@
 * Python 3.10.1
 * Flask
 * Google Cloud Platform (GCP)
-    * Cloud Run
+  * Cloud Run
 * Docker
 * Gunicorn
-
-## Screenshots
-
-![Example screenshot](./docs/img/screenshot.png)
 
 ## Setup
 
@@ -29,7 +24,7 @@
 
 ## To Do
 
-* Add screenshot once redeployed
+* Get some work experience to put on here :(
 
 ## Contact
 
