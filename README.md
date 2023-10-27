@@ -5,8 +5,6 @@
 ## Table of Contents
 
 * [Technologies Used](#technologies-used)
-* [Setup](#setup)
-* [To Do](#to-do)
 * [Contact](#contact)
 
 ## Technologies Used
@@ -17,14 +15,6 @@
   * Cloud Run
 * Docker
 * Gunicorn
-
-## Setup
-
-`$ pip install -r requirements.txt`
-
-## To Do
-
-* Get some work experience to put on here :(
 
 ## Contact
 
