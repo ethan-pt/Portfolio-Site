@@ -16,3 +16,8 @@
 #profile-section {
     background-color: #CAD2C5;
 }
+
+#profile-pic {
+    width: 200px;
+    height: 200px;
+}
