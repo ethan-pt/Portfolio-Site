@@ -1,4 +1,4 @@
-#header-bar {
+#header-bar, #offcanvas-header {
     background-color: #354f52;
     border-bottom: #2f3e46 5px solid;
 }
