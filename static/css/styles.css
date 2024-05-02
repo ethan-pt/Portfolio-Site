@@ -13,6 +13,16 @@
     height: 42px;
 }
 
+#profile-wrapper, #about-me-section {
+    background-color: #FFFCF2;
+}
+
+#profile-wrapper {
+	overflow: hidden;
+	background-image: url("../img/photography/profile-bg.jpg");
+	background-size: cover;
+}
+
 #profile-section {
     background-color: #CAD2C5;
 }
