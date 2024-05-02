@@ -29,7 +29,20 @@
 }
 
 #profile-section {
-    background-color: #CAD2C5;
+	max-height: inherit;
+	margin-top: 65px;
+}
+
+@media screen and (orientation:landscape) {
+	#profile-section {
+		max-width: 75% !important;
+	}
+}
+
+@media screen and (orientation:portrait) {
+	#profile-section {
+		max-width: 100% !important;
+	}
 }
 
 #profile-pic {
