@@ -68,3 +68,12 @@
 #offcanvas-body {
 	background-color: #CCC5B9;
 }
+
+#about-wrapper {
+	overflow: hidden;
+}
+
+#about-section {
+	max-height: inherit;
+	margin-top: 65px;
+}
