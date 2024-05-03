@@ -34,13 +34,13 @@
 }
 
 @media screen and (orientation:landscape) {
-	#profile-section {
+	#profile-section, #about-section {
 		max-width: 75% !important;
 	}
 }
 
 @media screen and (orientation:portrait) {
-	#profile-section {
+	#profile-section, #about-section {
 		max-width: 100% !important;
 	}
 }
