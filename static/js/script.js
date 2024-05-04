@@ -1,3 +1,4 @@
+// toggle offcanvas with nav links
 const offcanvas = new bootstrap.Offcanvas('#offcanvasWithBothOptions');
 const offcanvasLinks = document.getElementsByClassName('offcanvas-link');
 
