@@ -19,13 +19,7 @@
 }
 
 #profile-wrapper, #about-wrapper {
-    background-color: #FFFCF2;
-}
-
-#profile-wrapper {
-	overflow: hidden;
-	background-image: url("../img/photography/profile-bg.jpg");
-	background-size: cover;
+    transition: all 1s ease;
 }
 
 #profile-section {
