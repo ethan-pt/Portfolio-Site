@@ -11,7 +11,7 @@ window.addEventListener('scroll', () => {
 		aboutWrapper.style.opacity = '0';
 		contentWrapper.style.backgroundColor = 'rgba(255,252,242,0)';
 
-	} else if (offsetFromTop > viewHeight/2 && offsetFromTop  <= viewHeight*1.5) {
+	} else if (offsetFromTop > viewHeight/2 && offsetFromTop <= viewHeight*1.5) {
 		profileWrapper.style.opacity = '0';
 		aboutWrapper.style.opacity = '1';
 		contentWrapper.style.backgroundColor = 'rgba(255,252,242,1)';
