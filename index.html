@@ -1,22 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ethan-pt | Software Engineer</title>
     <link rel="stylesheet" href="./static/css/styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="icon" type="image/x-icon" href="./static/img/favicon-16x16.png">
 </head>
+
 <body>
     <div id="content" class="justify-content-center">
         <div id="header-bar" class="d-flex vw-100 position-fixed z-3">
-            <button class="btn btn-light btn-outline-dark my-2 mx-2 header-btns" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+            <button class="btn btn-light btn-outline-dark my-2 mx-2 header-btns" type="button"
+                data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions"
+                aria-controls="offcanvasWithBothOptions">
                 <i class="bi bi-list"></i>
             </button>
-            <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions"
+                aria-labelledby="offcanvasWithBothOptionsLabel">
                 <div id="offcanvas-header" class="offcanvas-header">
                     <h5 class="offcanvas-title text-light" id="offcanvasWithBothOptionsLabel">Navigation</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -25,29 +33,33 @@
                     <a class="bg-light nav-link border-bottom border-black offcanvas-link" href="#profile-wrapper">
                         <div class="py-3 fs-5 text-center">Profile</div>
                     </a>
-                    
+
                     <a class="bg-light nav-link border-bottom border-black offcanvas-link" href="#about-wrapper">
                         <div class="py-3 fs-5 text-center">About me</div>
                     </a>
-                    
+
                     <a class="bg-light nav-link border-bottom border-black offcanvas-link" href="#">
                         <div class="py-3 fs-5 text-center">Projects</div>
                     </a>
                 </div>
             </div>
 
-            <a id="header-logo" class="mx-2" href="#"><h5 class="text-light align-middle">ethan-pt</h5></a>
+            <a id="header-logo" class="mx-2" href="#">
+                <h5 class="text-light align-middle">ethan-pt</h5>
+            </a>
 
             <div class="position-absolute end-0 me-4">
                 <a role="button" class="btn btn-light btn-outline-dark my-2 mx-1 header-btns" href="" title="Resume">
                     <i class="bi bi-file-earmark-person-fill"></i>
                 </a>
 
-                <a role="button" class="btn btn-light btn-outline-dark my-2 mx-1 header-btns" href="https://www.linkedin.com/in/ethantubbe/" target="_blank" title="LinkedIn">
+                <a role="button" class="btn btn-light btn-outline-dark my-2 mx-1 header-btns"
+                    href="https://www.linkedin.com/in/ethantubbe/" target="_blank" title="LinkedIn">
                     <i class="bi bi-linkedin"></i>
                 </a>
 
-                <a role="button" class="btn btn-light btn-outline-dark my-2 mx-1 header-btns" href="https://github.com/ethan-pt" target="_blank" title="GitHub">
+                <a role="button" class="btn btn-light btn-outline-dark my-2 mx-1 header-btns"
+                    href="https://github.com/ethan-pt" target="_blank" title="GitHub">
                     <i class="bi bi-github"></i>
                 </a>
             </div>
@@ -55,25 +67,44 @@
 
         <div id="profile-wrapper" class="min-vh-100 d-flex justify-content-center">
             <div id="profile-section" class="d-flex flex-column justify-content-center object-fit-contain z-1">
-                <img id="profile-pic" src="./static/img/profile.jpg" class="mx-auto mb-3 d-flex flex-column rounded-circle border border-2 border-light" alt="Profile Picture">
+                <img id="profile-pic" src="./static/img/profile.jpg"
+                    class="mx-auto mb-3 d-flex flex-column rounded-circle border border-2 border-light"
+                    alt="Profile Picture">
 
                 <div id="profile-text" class="rounded-2">
-                  <p class="fs-1 fw-bolder text-center text-light m-0 p-0">Hi, I'm Ethan</p>
-                  <p class="fs-5 text-light px-1">I'm a passionate and ambitious full-stack software engineer transitioning from the service industry, eager to make my mark in tech. I specialize in backend Python development, although my real specialty is my adaptability and proficiency in quickly learning any tool, framework, or language necessary to get the job done. As of writing this, I have the most experience in Django, Flask, and Docker, with lots of experience playing with Google Cloud Platform, mainly using their serverless and database tooling. I am seeking a challenging and fulfilling role that allows me to showcase my skills and continue to build upon them while contributing to innovative projects.</p>
-              </div>
+                    <p class="fs-1 fw-bolder text-center text-light m-0 p-0">Hi, I'm Ethan</p>
+                    <p class="fs-5 text-light px-1">I'm a passionate and ambitious full-stack software engineer
+                        transitioning from the service industry, eager to make my mark in tech. I specialize in backend
+                        Python development, although my real specialty is my adaptability and proficiency in quickly
+                        learning any tool, framework, or language necessary to get the job done. As of writing this, I
+                        have the most experience in Django, Flask, and Docker, with lots of experience playing with
+                        Google Cloud Platform, mainly using their serverless and database tooling. I am seeking a
+                        challenging and fulfilling role that allows me to showcase my skills and continue to build upon
+                        them while contributing to innovative projects.</p>
+                </div>
             </div>
         </div>
 
         <div id="about-wrapper" class="min-vh-100 d-flex justify-content-center">
-          <div id="about-section" class="justify-content-center">
-            <p class="fs-1 fw-bolder text-center">About Me</p>
-            <p class="fs-5">I started coding in early 2021 after I had an idea for my first IOT project, assuming I’d need some programming skills to get it started. As it turns out, I was right, although I soon realized that my project would be better implemented as a smartphone app that likely already exists, but, this project ended up being just the push I needed to realize just how much I enjoyed programming. Believe it or not, I really enjoy being entirely lost and directionless after diving head-first into a project or feature. It allows me to take the time to gain new skills or utilize old ones in ways I hadn’t considered previously, which is exciting to me. </p>
-            <p class="fs-5">Outside of programming, I’m also a hobbyist photographer (I took all images featured on this website), a huge car guy, and a renowned cat dad. My favorite parts of all of these things are their many intricacies, encouraging me to dive deeper into new concepts, and increasing my effectiveness and proficiency across the board.</p>
-          </div>
+            <div id="about-section" class="justify-content-center">
+                <p class="fs-1 fw-bolder text-center">About Me</p>
+                <p class="fs-5">I started coding in early 2021 after I had an idea for my first IOT project, assuming
+                    I’d need some programming skills to get it started. As it turns out, I was right, although I soon
+                    realized that my project would be better implemented as a smartphone app that likely already exists,
+                    but, this project ended up being just the push I needed to realize just how much I enjoyed
+                    programming. Believe it or not, I really enjoy being entirely lost and directionless after diving
+                    head-first into a project or feature. It allows me to take the time to gain new skills or utilize
+                    old ones in ways I hadn’t considered previously, which is exciting to me. </p>
+                <p class="fs-5">Outside of programming, I’m also a hobbyist photographer (I took all images featured on
+                    this website), a huge car guy, and a renowned cat dad. My favorite parts of all of these things are
+                    their many intricacies, encouraging me to dive deeper into new concepts, and increasing my
+                    effectiveness and proficiency across the board.</p>
+            </div>
         </div>
     </div>
 
 
     <script src="./static/js/script.js"></script>
 </body>
+
 </html>
