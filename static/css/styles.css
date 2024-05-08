@@ -8,7 +8,7 @@ body {
 
 #content {
 	background-color: rgba(255, 252, 242, 0);
-	transition: all 0.5s ease;
+	transition: all 0.25s ease;
 }
 
 #header-bar,
@@ -34,7 +34,7 @@ body {
 
 #profile-wrapper,
 #about-wrapper {
-	transition: all 0.5s ease;
+	transition: all 0.25s ease;
 }
 
 #profile-section {
