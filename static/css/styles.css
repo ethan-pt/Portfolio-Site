@@ -102,3 +102,19 @@ body {
 	max-height: inherit;
 	margin-top: 65px;
 }
+
+.skill-icon {
+	font-size: 60px;
+	margin: 8px;
+	padding: 8px;
+	border: white 1px solid;
+	border-radius: 10%;
+	background-color: black;
+	transition: all 0.25s ease;
+}
+
+.skill-icon:hover {
+	border: black 1px solid;
+	background-color: white;
+	color: black !important;
+}
