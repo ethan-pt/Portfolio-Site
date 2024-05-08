@@ -9,17 +9,17 @@ window.addEventListener('scroll', () => {
 	if (offsetFromTop <= (viewHeight * 0.5)) {
 		profileWrapper.style.opacity = '1';
 		aboutWrapper.style.opacity = '0';
-		contentWrapper.style.backgroundColor = 'rgba(255,252,242,0)';
+		contentWrapper.style.backgroundColor = 'rgba(53,52,49,0)';
 
 	} else if (offsetFromTop > (viewHeight * 0.5) && offsetFromTop <= (viewHeight * 1.5)) {
 		profileWrapper.style.opacity = '0';
 		aboutWrapper.style.opacity = '1';
-		contentWrapper.style.backgroundColor = 'rgba(255,252,242,1)';
+		contentWrapper.style.backgroundColor = 'rgba(53,52,49,1)';
 
 	} else if (offsetFromTop > (viewHeight * 1.5)) {
 		profileWrapper.style.opacity = '0';
 		aboutWrapper.style.opacity = '0';
-		contentWrapper.style.backgroundColor = 'rgba(255,252,242,1)';
+		contentWrapper.style.backgroundColor = 'rgba(53,52,49,1)';
 	}
 });
 
