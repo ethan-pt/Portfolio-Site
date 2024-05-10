@@ -48,6 +48,18 @@ body {
 	#about-section {
 		max-width: 66% !important;
 	}
+
+	#about-wrapper {
+		display: flex !important;
+	}
+
+	#about-section {
+		margin: auto 16px auto 0 !important;
+	}
+
+	#skills-section {
+		margin: auto 0 auto 16px !important;
+	}
 }
 
 @media screen and (orientation:portrait) {
@@ -55,6 +67,14 @@ body {
 	#profile-section,
 	#about-section {
 		max-width: 100% !important;
+	}
+
+	#about-wrapper {
+		display: block !important;
+	}
+
+	#about-wrapper > div {
+		margin: 20px auto 20px auto !important;
 	}
 }
 
