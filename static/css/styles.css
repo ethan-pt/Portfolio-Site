@@ -33,7 +33,8 @@ body {
 }
 
 #profile-wrapper,
-#about-wrapper {
+#about-wrapper,
+#projects-section {
 	transition: all 0.25s ease;
 }
 
@@ -45,7 +46,8 @@ body {
 @media screen and (orientation:landscape) {
 
 	#profile-section,
-	#about-section {
+	#about-section,
+	#projects-section {
 		max-width: 66% !important;
 	}
 
@@ -65,7 +67,8 @@ body {
 @media screen and (orientation:portrait) {
 
 	#profile-section,
-	#about-section {
+	#about-section,
+	#projects-section {
 		max-width: 100% !important;
 	}
 
@@ -89,13 +92,9 @@ body {
 	box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.75);
 }
 
-#about-text {
-	background-color: rgba(0, 0, 0, 0.5);
-	box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.5);
-	padding: 4px;
-}
-
-#skills-section {
+#about-text,
+#skills-section,
+#projects-section {
 	background-color: rgba(0, 0, 0, 0.5);
 	box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.5);
 	padding: 4px;
