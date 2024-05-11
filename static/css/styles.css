@@ -34,7 +34,7 @@ body {
 
 #profile-wrapper,
 #about-wrapper,
-#projects-section {
+#projects-wrapper {
 	transition: all 0.25s ease;
 }
 
