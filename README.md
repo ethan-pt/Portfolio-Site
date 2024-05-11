@@ -1,20 +1,14 @@
 # Portfolio Site
 
-  A Flask application to display my work.
-
-## Table of Contents
-
-* [Technologies Used](#technologies-used)
-* [Contact](#contact)
+  A website to display my work.
 
 ## Technologies Used
 
-* Python 3.10.1
-* Flask
-* Google Cloud Platform (GCP)
-  * Cloud Run
-* Docker
-* Gunicorn
+* JavaScript
+* HTML
+* CSS
+* Bootstrap
+* Cloudflare Pages
 
 ## Contact
 
