@@ -207,20 +207,31 @@
                         </div>
                     </div>
 
-                    <div id="readingtracker-project" class="project-card">
-                        <div class="project-card-header">
-                            <h3 class="project-card-title text-light m-0">Reading Tracker</h3>
+                    <div id="readingtracker-project" class="project-card rounded mx-2 my-4">
+                        <div class="project-card-header px-3 py-4">
+                            <div class="pb-1">
+                                <h3 class="project-card-title d-inline text-light m-0">Reading Tracker</h3>
+                                <a class="d-inline px-2" href="https://github.com/ethan-pt/reading_tracker">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                            </div>
                             <p class="project-card-subtitle fs-6 text-light fw-medium m-0">A website to track your reading</p>
                         </div>
 
-                        <div class="project-carousel">
+                        <div class="project-carousel border border-dark border-start-0 border-end-0 p-3">
                             <div id="readingtracker-carousel" class="carousel slide" data-bs-touch="false">
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img class="d-block w-100" src="" alt="">
+                                        <img class="d-block mx-auto" src="./static/img/reading-tracker/login.png" alt="Login Page">
                                     </div>
                                     <div class="carousel-item">
-                                        <img class="d-block w-100" src="" alt="">
+                                        <img class="d-block mx-auto" src="./static/img/reading-tracker/list.png" alt="Book List Page">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block mx-auto" src="./static/img/reading-tracker/search.png" alt="Book Search Page">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block mx-auto" src="./static/img/reading-tracker/create.png" alt="Book Create Page">
                                     </div>
                                 </div>
 
@@ -235,14 +246,44 @@
                             </div>
                         </div>
 
-                        <div class="project-description">
-                            <p class="project-card-text text-light">A fairly self-explanatory Django project designed to track reading progress.</p>
+                        <div class="project-description px-3 py-4">
+                            <p class="project-card-text text-light mb-0">A fairly self-explanatory Django project designed to track reading progress.</p>
 
-                            <div>
-                                <a href="https://github.com/ethan-pt/reading_tracker">
-                                    <i class="bi bi-github"></i>
-                                </a>
+                            <div class="collapse" id="readingtracker-desc">
+                              <div class="card card-body text-bg-dark">
+                                <h4>Features</h4>
+                                <ul>
+                                    <li>Search Functionality: Users can search for books by title, author, publisher, subject, ISBN, OCCN or OCLC.</li>
+                                    <li>Book Details: Displays comprehensive information about each book, sourced from the Google Books API, including cover images, descriptions, and publication details.</li>
+                                    <li>Mobile Compatability: Responsive design ensures the website is accessible and user-friendly on both desktop and mobile devices, allowing users to track their reading on the go.</li>
+                                    <li>Reading Lists: Allow users to create personalized reading lists to organize books they want to read, are currently reading, or have finished reading.</li>
+                                    <li>Progress Tracking: Enable users to track their reading progress for each book, such as marking pages read or time listened.</li>
+                                    <li>User Profiles: Enable users to create profiles where they can track their own individual reading history.</li>
+                                </ul>
+                                <br>
+                                <h4>Technologies Used</h4>
+                                <ul>
+                                    <li>Python</li>
+                                    <ul>
+                                        <li>Django</li>
+                                    </ul>
+                                    <li>JavaScript</li>
+                                    <li>Google Cloud Platform (GCP)</li>
+                                    <ul>
+                                        <li>Cloud Run</li>
+                                        <li>Cloud SQL (PostgreSQL)</li>
+                                        <li>Cloud Storage Buckets</li>
+                                        <li>Cloud Secrets</li>
+                                    </ul>
+                                    <li>Docker</li>
+                                    <li>Gunicorn</li>
+                                    <li>Google Books API</li>
+                                </ul>
+                              </div>
                             </div>
+                            <a class="text-light" data-bs-toggle="collapse" href="#readingtracker-desc" aria-expanded="false" aria-controls="readingtracker-desc">
+                                Read more...
+                            </a>
                         </div>
                     </div>
 
