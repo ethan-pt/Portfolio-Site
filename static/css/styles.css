@@ -94,7 +94,8 @@ body {
 
 #about-text,
 #skills-section,
-#projects-section {
+#projects-section,
+#contact-section {
 	background-color: rgba(0, 0, 0, 0.5);
 	box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.5);
 	padding: 4px;
