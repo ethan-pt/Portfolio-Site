@@ -12,7 +12,14 @@
 
 ## To Do
 
+* Add SnapSort images
+* Add SnapSort read more content
+* Add ClawConnect API images
+* Add ClawConnect API description
+* Add ClawConnect API read more content
 * Add ClawConnect API button
+* Add Tab Saver images
+* Add Tab Saver features
 
 ## Contact
 
