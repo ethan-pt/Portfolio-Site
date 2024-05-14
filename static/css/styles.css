@@ -62,6 +62,11 @@ body {
 	#skills-section {
 		margin: auto 0 auto 16px !important;
 	}
+
+	.carousel-item > img {
+		width: 45%;
+	}
+
 }
 
 @media screen and (orientation:portrait) {
@@ -78,6 +83,10 @@ body {
 
 	#about-wrapper > div {
 		margin: 20px auto 20px auto !important;
+	}
+
+	.carousel-item > img {
+		width: 100%;
 	}
 }
 
