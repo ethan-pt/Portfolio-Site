@@ -20,6 +20,7 @@
 * Add ClawConnect API button
 * Add Tab Saver images
 * Add Tab Saver features
+* Fix scrolling opacity behavior
 
 ## Contact
 
