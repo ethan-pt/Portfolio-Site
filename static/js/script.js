@@ -15,20 +15,20 @@ window.addEventListener('scroll', () => {
 		contactWrapper.style.opacity = '0';
 		contentWrapper.style.backgroundColor = 'rgba(33,45,49,0)';
 
-	} else if (offsetFromTop > (viewHeight * 0.5) && offsetFromTop <= (viewHeight * 1.5)) {
+	} else if (offsetFromTop <= (profileWrapper.offsetHeight + (aboutWrapper.offsetHeight - (viewHeight * 0.5)))) {
 		profileWrapper.style.opacity = '0';
 		aboutWrapper.style.opacity = '1';
 		projectsWrapper.style.opacity = '0';
 		contactWrapper.style.opacity = '0';
 		contentWrapper.style.backgroundColor = 'rgba(33,45,49,1)';
 
-	} else if (offsetFromTop > (viewHeight * 1.5)) {
+	} else if (offsetFromTop <= (profileWrapper.offsetHeight + aboutWrapper.offsetHeight + (projectsWrapper.offsetHeight - (viewHeight * 0.5)))) {
 		profileWrapper.style.opacity = '0';
 		aboutWrapper.style.opacity = '0';
 		projectsWrapper.style.opacity = '1';
 		contactWrapper.style.opacity = '0';
 		contentWrapper.style.backgroundColor = 'rgba(33,45,49,1)';
-	} else if () {
+	} else if (offsetFromTop <= (profileWrapper.offsetHeight + aboutWrapper.offsetHeight + projectsWrapper.offsetHeight + (contactWrapper.offsetHeight - (viewHeight * 0.5)))) {
 		profileWrapper.style.opacity = '0';
 		aboutWrapper.style.opacity = '0';
 		projectsWrapper.style.opacity = '0';
